@@ -7,7 +7,7 @@ import (
 
 func Sorted(vals []int) bool {
 	for i, n := range vals[:len(vals)-1] {
-		if n > vals[i] {
+		if n > vals[i+1] {
 			return false
 		}
 	}

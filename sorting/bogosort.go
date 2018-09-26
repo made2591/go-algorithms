@@ -6,7 +6,7 @@ import (
 
 func Bogosorting(vals []int) (a []int) {
 
-	for common.Sorted(vals) {
+	for !common.Sorted(vals) {
 		common.Shuffle(vals)
 	}
 	return vals

@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	sorting "github.com/made2591/go-algorithms/sorting"
+)
 
 func main() {
 
