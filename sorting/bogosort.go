@@ -1,7 +1,6 @@
 package bogosort
 
 import (
-	"testing"
 	"github.com/made2591/go-algorithms/sorting/common"
 )
 
